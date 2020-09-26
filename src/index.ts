@@ -7,18 +7,16 @@ export enum ResultType {
     channel = 'channel',
     playlist = 'playlist',
     movie = 'movie',
-    live = 'live',
-    ccvideo = 'ccvideo'
+    live = 'live'
 }
 
 export const ResultFilter: { [key in ResultType]: string } = {
     [ResultType.any]: 'CAA%253D',
-    [ResultType.video]: 'EgIQAQ%253D%253D',
+    [ResultType.video]: 'EgQQASgB',
     [ResultType.channel]: 'EgIQAg%253D%253D',
     [ResultType.playlist]: 'EgIQAw%253D%253D',
     [ResultType.movie]: 'EgIQBA%253D%253D',
-    [ResultType.live]: 'EgJAAQ%253D%253D',
-    [ResultType.ccvideo]: 'EgQQASgB'
+    [ResultType.live]: 'EgJAAQ%253D%253D'
 };
 
 export interface SearchOptions {
