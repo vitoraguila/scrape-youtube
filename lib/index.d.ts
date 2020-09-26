@@ -5,7 +5,8 @@ export declare enum ResultType {
     channel = "channel",
     playlist = "playlist",
     movie = "movie",
-    live = "live"
+    live = "live",
+    ccvideo = 'ccvideo'
 }
 export declare const ResultFilter: {
     [key in ResultType]: string;
